@@ -1,0 +1,13 @@
+"filename", "language", "Markdown", "JavaScript", "CSS", "JSON", "HTML", "comment", "blank", "total"
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/LICENSE.md", "Markdown", 17, 0, 0, 0, 0, 0, 5, 22
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/README.md", "Markdown", 38, 0, 0, 0, 0, 0, 33, 71
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/package-lock.json", "JSON", 0, 0, 0, 25142, 0, 0, 1, 25143
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/package.json", "JSON", 0, 0, 0, 39, 0, 0, 1, 40
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/public/index.html", "HTML", 0, 0, 0, 0, 20, 23, 1, 44
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/public/manifest.json", "JSON", 0, 0, 0, 25, 0, 0, 1, 26
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/App.jsx", "JavaScript", 0, 25, 0, 0, 0, 0, 3, 28
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/index.css", "CSS", 0, 0, 12, 0, 0, 0, 2, 14
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/index.js", "JavaScript", 0, 10, 0, 0, 0, 3, 3, 16
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/places/pages/NewPlaces.jsx", "JavaScript", 0, 5, 0, 0, 0, 0, 3, 8
+"/home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/user/pages/Users.jsx", "JavaScript", 0, 5, 0, 0, 0, 0, 3, 8
+"Total", "-", 55, 45, 12, 25206, 20, 26, 56, 25420
