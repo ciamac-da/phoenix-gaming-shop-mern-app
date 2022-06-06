@@ -1,0 +1,72 @@
+Date : 2022-06-06 16:26:24
+Directory : /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app
+Total : 27 files,  4301 codes, 0 comments, 8 blanks, all 4309 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          6 |      4,199 |          0 |          0 |      4,199 |
+| JavaScript |         11 |        105 |          0 |         10 |        115 |
+| HTML       |          2 |          3 |          0 |          0 |          3 |
+| Markdown   |          6 |          0 |          0 |          0 |          0 |
+| CSS        |          2 |         -6 |          0 |         -2 |         -8 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                   |         27 |      4,301 |          0 |          8 |      4,309 |
+| ..                                                                                                                                  |         12 |    -25,338 |        -26 |        -57 |    -25,421 |
+| ../phoenix-gaming-shop-mern-app                                                                                                     |         12 |    -25,338 |        -26 |        -57 |    -25,421 |
+| ../phoenix-gaming-shop-mern-app/frontend                                                                                            |         10 |    -25,321 |        -26 |        -51 |    -25,398 |
+| ../phoenix-gaming-shop-mern-app/frontend/public                                                                                     |          2 |        -45 |        -23 |         -2 |        -70 |
+| ../phoenix-gaming-shop-mern-app/frontend/src                                                                                        |          5 |        -57 |         -3 |        -14 |        -74 |
+| ../phoenix-gaming-shop-mern-app/frontend/src/places                                                                                 |          1 |         -5 |          0 |         -3 |         -8 |
+| ../phoenix-gaming-shop-mern-app/frontend/src/places/pages                                                                           |          1 |         -5 |          0 |         -3 |         -8 |
+| ../phoenix-gaming-shop-mern-app/frontend/src/user                                                                                   |          1 |         -5 |          0 |         -3 |         -8 |
+| ../phoenix-gaming-shop-mern-app/frontend/src/user/pages                                                                             |          1 |         -5 |          0 |         -3 |         -8 |
+| frontend                                                                                                                            |         13 |     29,622 |         26 |         59 |     29,707 |
+| frontend/public                                                                                                                     |          2 |         48 |         23 |          2 |         73 |
+| frontend/src                                                                                                                        |          8 |        156 |          3 |         22 |        181 |
+| frontend/src/places                                                                                                                 |          1 |          6 |          0 |          3 |          9 |
+| frontend/src/places/pages                                                                                                           |          1 |          6 |          0 |          3 |          9 |
+| frontend/src/user                                                                                                                   |          4 |        109 |          0 |         13 |        122 |
+| frontend/src/user/components                                                                                                        |          3 |         97 |          0 |         11 |        108 |
+| frontend/src/user/pages                                                                                                             |          1 |         12 |          0 |          2 |         14 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/LICENSE.md                                     | Markdown   |        -17 |          0 |         -5 |        -22 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/README.md                                      | Markdown   |          0 |          0 |         -1 |         -1 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/README.md                             | Markdown   |        -38 |          0 |        -33 |        -71 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/package-lock.json                     | JSON       |    -25,142 |          0 |         -1 |    -25,143 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/package.json                          | JSON       |        -39 |          0 |         -1 |        -40 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/public/index.html                     | HTML       |        -20 |        -23 |         -1 |        -44 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/public/manifest.json                  | JSON       |        -25 |          0 |         -1 |        -26 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/App.jsx                           | JavaScript |        -25 |          0 |         -3 |        -28 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/index.css                         | CSS        |        -12 |          0 |         -2 |        -14 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/index.js                          | JavaScript |        -10 |         -3 |         -3 |        -16 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/places/pages/NewPlaces.jsx        | JavaScript |         -5 |          0 |         -3 |         -8 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-gaming-shop-mern-app/frontend/src/user/pages/Users.jsx              | JavaScript |         -5 |          0 |         -3 |         -8 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/LICENSE.md                                 | Markdown   |         17 |          0 |          5 |         22 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/README.md                                  | Markdown   |          0 |          0 |          1 |          1 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/README.md                         | Markdown   |         38 |          0 |         33 |         71 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/package-lock.json                 | JSON       |     29,336 |          0 |          1 |     29,337 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/package.json                      | JSON       |         44 |          0 |          1 |         45 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/public/index.html                 | HTML       |         23 |         23 |          1 |         47 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/public/manifest.json              | JSON       |         25 |          0 |          1 |         26 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/App.jsx                       | JavaScript |         25 |          0 |          3 |         28 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/index.css                     | CSS        |          6 |          0 |          0 |          6 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/index.js                      | JavaScript |         10 |          3 |          3 |         16 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/places/pages/NewPlaces.jsx    | JavaScript |          6 |          0 |          3 |          9 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/components/UserItem.jsx  | JavaScript |         31 |          0 |          4 |         35 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/components/UserList.jsx  | JavaScript |         30 |          0 |          4 |         34 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/components/UserStyle.jsx | JavaScript |         36 |          0 |          3 |         39 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/pages/Users.jsx          | JavaScript |         12 |          0 |          2 |         14 |
+| Total                                                                                                                               |            |      4,301 |          0 |          8 |      4,309 |
++-------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import muiStyles from "./UserStyle";
+import Avatar from "../../shared/components/Avatar";
 
 const UserItem = (props) => {
   const classes = muiStyles();
@@ -9,20 +10,18 @@ const UserItem = (props) => {
     <li>
       <div className={classes.userContainer}>
         <div className={classes.userImageContainer}>
-          <img
-            className={classes.userImage}
-            src={props.image}
+          <Avatar
+            image={props.image}
             alt={props.name}
           />
         </div>
         <div className={classes.userNameContainer}>
-          <Typography className={classes.userName}>
-            User Name :&nbsp;
+          <Typography className={classes.usernameAndPlacesCount}>
             {props.name}
           </Typography>
-          <Typography className={classes.placesCount}>
-            Places: &nbsp;
+          <Typography className={classes.usernameAndPlacesCount}>
             {props.placeCount}
+            &nbsp;
             {props.placeCount === 1 ? "Place" : "Places"}
           </Typography>
         </div>

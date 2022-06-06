@@ -6,7 +6,7 @@ import UserItem from "./UserItem";
 const UserList = (props) => {
   const classes = muiStyles();
 
-  if (props.items.length == 0) {
+  if (props.items.length === 0) {
     return (
       <div className={classes.noUserContainer}>
         <Typography className={classes.noUser}>No users found...!</Typography>
