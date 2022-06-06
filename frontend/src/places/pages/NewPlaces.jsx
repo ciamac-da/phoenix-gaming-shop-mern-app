@@ -1,8 +1,9 @@
 import React from 'react';
+import { Typography } from '@mui/material';
 
 
 const NewPlaces = () => {
-    return <h2>New places works</h2>
+    return <Typography>New places works</Typography>
 }
 
 export default NewPlaces;
