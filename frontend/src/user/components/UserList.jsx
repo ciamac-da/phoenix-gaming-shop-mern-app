@@ -14,7 +14,7 @@ const UserList = (props) => {
     );
   }
   return (
-    <div className={classes.mainContainer}>
+    <div>
       {props.items.map((user) => {
         return (
           <UserItem

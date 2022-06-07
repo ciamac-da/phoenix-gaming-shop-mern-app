@@ -2,32 +2,35 @@ import { makeStyles } from "@mui/styles";
 
 const muiStyles = makeStyles(() => ({
   mainContainer: {
-    listStyle: "none",
     margin: "auto",
   },
   userContainer: {
     color: "#05120a",
+    background: "#b5b5ae",
+    display: "grid",
+    gridTemplateColumns: "1fr 1fr",
     textAlign: "center",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "start",
-    flexDirection: "column",
-    width: "100px"
+    width:"200px",
+    padding:"20px",
+    borderRadius:"10px",
+    transition: "0.4s",
+    "&:hover": {
+    background: "#cfca3a",
+    }
   },
   userImageContainer: {
-      width:"100%",
-      padding:"10px"
+      width: "50px",
+      height: "50px"
   },
   userNameContainer: {
-    width:"100%",
-  },
+    width: "100px"
+    },
   usernameAndPlacesCount: {
     fontWeight: "bolder !important",
     fontSize: "14px !important",
     cursor:"pointer",
-    transition: "0.3s",
+    transition: "0.4s",
     "&:hover": {
-        transition: "0.3s",
         color: "#5c25a8",
       },
   },
