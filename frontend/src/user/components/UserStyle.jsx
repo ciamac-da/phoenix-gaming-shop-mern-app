@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 
-const muiStyles = makeStyles(() => ({
+const muiStyle = makeStyles(() => ({
   mainContainer: {
     margin: "auto",
   },
@@ -45,4 +45,4 @@ const muiStyles = makeStyles(() => ({
   },
 }));
 
-export default muiStyles;
+export default muiStyle;

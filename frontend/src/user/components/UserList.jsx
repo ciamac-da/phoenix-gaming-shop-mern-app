@@ -1,15 +1,18 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import muiStyles from "./UserStyle";
+import muiStyle from "./UserStyle";
 import UserItem from "./UserItem";
+import Card from "../../shared/components/UIElements/Card";
 
 const UserList = (props) => {
-  const classes = muiStyles();
+  const classes = muiStyle();
 
   if (props.items.length === 0) {
     return (
       <div className={classes.noUserContainer}>
+      <Card>
         <Typography className={classes.noUser}>No users found...!</Typography>
+      </Card>
       </div>
     );
   }

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
-import muiStyles from "./UserStyle";
+import muiStyle from "./UserStyle";
 import Avatar from "../../shared/components/UIElements/Avatar";
 import Card from "../../shared/components/UIElements/Card";
 
 const UserItem = (props) => {
-  const classes = muiStyles();
+  const classes = muiStyle();
 
   return (
     <div className={classes.mainContainer}>
