@@ -5,25 +5,27 @@ const muiStyle = makeStyles(() => ({
     marginTop: "5rem",
   },
   userContainer: {
-    color: "#05120a",
-    backgroundColor: "rgb(255, 0, 32);",
+    color: "white",
+    textDecoration:"none",
+    fontWeight:"bolder",
+    backgroundColor: "#1c69d4",
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
     textAlign: "center",
     width:"200px",
-    padding:"20px",
-    borderRadius:"10px",
+    padding:"1.2rem",
+    borderRadius:"0.8rem",
     transition: "0.4s",
     "&:hover": {
-    background: "#cfca3a",
+      backgroundColor: "#0653b6",
     }
   },
   userImageContainer: {
-      width: "50px",
-      height: "50px"
+      width: "3rem",
+      height: "3rem"
   },
   userNameContainer: {
-    width: "100px"
+    width: "7rem"
     },
   usernameAndPlacesCount: {
     fontWeight: "bolder !important",
@@ -31,16 +33,18 @@ const muiStyle = makeStyles(() => ({
     cursor:"pointer",
     transition: "0.4s",
     "&:hover": {
-        color: "#5c25a8",
+        color: "rgba(169, 166, 166, 1)",
       },
   },
   noUserContainer: {
     display: "flex",
+    marginTop:"5rem",
     justifyContent: "center",
     textAlign: "center",
   },
   noUser: {
-    color: "#fc2003",
+    color: "#1c69d4",
+    fontWeight:"bolder !important",
     margin: "10% auto",
   },
 }));
