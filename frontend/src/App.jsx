@@ -8,7 +8,7 @@ import {
 import Users from "./user/pages/Users";
 import NewPlaces from "./places/pages/NewPlaces";
 import MainNavigation from './shared/components/Navigation/MainNavigation';
-
+import Footer from './shared/components/Footer/Footer';
 
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
         </Route>
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </Router>
   );
 };

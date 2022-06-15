@@ -2,11 +2,11 @@ import { makeStyles } from "@mui/styles";
 
 const muiStyle = makeStyles(() => ({
   mainContainer: {
-    margin: "auto",
+    marginTop: "5rem",
   },
   userContainer: {
     color: "#05120a",
-    background: "#b5b5ae",
+    backgroundColor: "rgb(255, 0, 32);",
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
     textAlign: "center",

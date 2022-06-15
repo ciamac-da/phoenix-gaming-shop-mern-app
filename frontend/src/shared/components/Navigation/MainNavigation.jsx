@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import muiStyle from "./MainHeaderStyle";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+
 
 const MainNavigation = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const classes = muiStyle();
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const classes = muiStyle();
 
   const Root = styled("div")(({ theme }) => ({
     [theme.breakpoints.up("sm")]: {
@@ -31,16 +32,22 @@ const MainNavigation = () => {
     <MainHeader>
       <Root>
         <button className={classes.hamburgerMenuButtonMain}>
-          <MenuIcon />
+          <MenuOutlinedIcon className={classes.hamburgerMenuButtonMainIcon} />
         </button>
       </Root>
-      <Typography className={classes.MainNavigationHeaderTitle}>
-        <Link className={classes.MainNavigationHeaderTitleLink} to="/">
+      <Typography style={{ padding: "1rem" }}>
+        <Link
+          style={{
+            textDecoration: "auto",
+            color: "white",
+            fontWeight: "bolder",
+            fontSize:"1.25rem"
+          }}
+        >
           Phoenix Places
         </Link>
       </Typography>
-      {windowWidth} px
-      <nav>...</nav>
+      <nav style={{color:"white"}}>...</nav>
     </MainHeader>
   );
 };

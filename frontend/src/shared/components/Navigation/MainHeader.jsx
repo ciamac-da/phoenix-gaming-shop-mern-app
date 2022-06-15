@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import muiStyle from "./MainHeaderStyle";
 
+
 const MainHeader = (props) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const classes = muiStyle();

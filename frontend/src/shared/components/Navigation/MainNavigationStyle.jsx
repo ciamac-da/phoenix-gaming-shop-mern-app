@@ -12,12 +12,9 @@ const muiStyle = makeStyles(() => ({
     marginRight: "2rem",
     cursor: "pointer",
   },
-  MainNavigationHeaderTitle: {
-    color: "white",
-  },
-  MainNavigationHeaderTitleLink: {
-    textDecoration: "none",
-    color: "white",
+  hamburgerMenuButtonMainIcon: {
+    backgroundColor: "white",
+    color: "#1c69d4",
   },
 }));
 
