@@ -9,6 +9,8 @@ import Users from "./user/pages/Users";
 import NewPlaces from "./places/pages/NewPlaces";
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import Footer from './shared/components/Footer/Footer';
+import NotFound from './shared/components/NotFound/NotFound';
+
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/places/new" exact>
           <NewPlaces />
         </Route>
+        <Route                                  component={NotFound}     /> 
+        <Route path="*" exact                   component={NotFound}     />
         <Redirect to="/" />
       </Switch>
       <Footer />

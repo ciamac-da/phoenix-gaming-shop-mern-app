@@ -29,7 +29,7 @@ const muiStyle = makeStyles(() => ({
     },
   usernameAndPlacesCount: {
     fontWeight: "bolder !important",
-    fontSize: "14px !important",
+    fontSize: "0.9rem !important",
     cursor:"pointer",
     transition: "0.4s",
     "&:hover": {
