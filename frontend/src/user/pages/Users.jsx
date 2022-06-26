@@ -1,14 +1,26 @@
-import React from 'react';
-import UserList from '../components/UserList';
+import { Fragment } from "react";
+import { Helmet } from "react-helmet";
+import UserList from "../components/UserList";
 
 const Users = () => {
-    const USERS = [{
-        id: "1",
-        image: 'https://via.placeholder.com/600/771796',
-        name: 'Johnny Depp',
-        places: 3
-    }]
-    return <UserList items={USERS}/>
-}
+  const UsersTitle = "Phoenix Places Explorer App/Users";
+
+  const USERS = [
+    {
+      id: "1",
+      image: "https://via.placeholder.com/600/771796",
+      name: "Johnny Depp",
+      places: 3,
+    },
+  ];
+  return (
+    <Fragment>
+      <Helmet>
+        <title>{UsersTitle}</title>
+      </Helmet>
+      <UserList items={USERS} />
+    </Fragment>
+  );
+};
 
 export default Users;

@@ -8,7 +8,7 @@ import muiStyle from "./NotFoundStyle";
 
 const NotFound = () => {
   const classes = muiStyle();
-  const WrongPathPageTitle = "Phoenix Places App/Page not found!";
+  const WrongPathPageTitle = "Phoenix Places Explorer App/Page not found!";
 
   return (
     <div>

@@ -5,6 +5,7 @@ import { Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import muiStyle from "./MainHeaderStyle";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import NavLinks from "./NavLinks";
 
 
 const MainNavigation = () => {
@@ -44,10 +45,10 @@ const MainNavigation = () => {
             fontSize:"1.25rem"
           }}
         >
-          Phoenix Places
+          Phoenix Places Explorer
         </Link>
       </Typography>
-      <nav style={{color:"white"}}>...</nav>
+        <NavLinks />
     </MainHeader>
   );
 };
