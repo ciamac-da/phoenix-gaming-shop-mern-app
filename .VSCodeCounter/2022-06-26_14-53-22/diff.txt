@@ -1,0 +1,56 @@
+Date : 2022-06-26 14:53:22
+Directory : /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app
+Total : 18 files,  711 codes, 0 comments, 36 blanks, all 747 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         15 |        359 |          0 |         36 |        395 |
+| JSON       |          2 |        344 |          0 |          0 |        344 |
+| CSS        |          1 |          8 |          0 |          0 |          8 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                          |         18 |        711 |          0 |         36 |        747 |
+| frontend                                                                                                                                                   |         18 |        711 |          0 |         36 |        747 |
+| frontend/src                                                                                                                                               |         16 |        367 |          0 |         36 |        403 |
+| frontend/src/places                                                                                                                                        |          1 |          9 |          0 |          1 |         10 |
+| frontend/src/places/pages                                                                                                                                  |          1 |          9 |          0 |          1 |         10 |
+| frontend/src/shared                                                                                                                                        |         11 |        320 |          0 |         32 |        352 |
+| frontend/src/shared/components                                                                                                                             |         11 |        320 |          0 |         32 |        352 |
+| frontend/src/shared/components/Footer                                                                                                                      |          2 |         36 |          0 |          3 |         39 |
+| frontend/src/shared/components/Navigation                                                                                                                  |          7 |        202 |          0 |         22 |        224 |
+| frontend/src/shared/components/NotFound                                                                                                                    |          2 |         82 |          0 |          7 |         89 |
+| frontend/src/user                                                                                                                                          |          2 |         23 |          0 |          2 |         25 |
+| frontend/src/user/components                                                                                                                               |          1 |         12 |          0 |          0 |         12 |
+| frontend/src/user/pages                                                                                                                                    |          1 |         11 |          0 |          2 |         13 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/package-lock.json                                        | JSON       |        339 |          0 |          0 |        339 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/package.json                                             | JSON       |          5 |          0 |          0 |          5 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/App.jsx                                              | JavaScript |          7 |          0 |          1 |          8 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/index.css                                            | CSS        |          8 |          0 |          0 |          8 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/places/pages/NewPlaces.jsx                           | JavaScript |          9 |          0 |          1 |         10 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Footer/Footer.jsx                  | JavaScript |         17 |          0 |          1 |         18 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Footer/FooterStyle.jsx             | JavaScript |         19 |          0 |          2 |         21 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/MainHeader.jsx          | JavaScript |         20 |          0 |          5 |         25 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/MainHeaderStyle.jsx     | JavaScript |         11 |          0 |         -1 |         10 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/MainNavigation.jsx      | JavaScript |         49 |          0 |          7 |         56 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/MainNavigationStyle.jsx | JavaScript |         16 |          0 |          0 |         16 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/NavLinks.jsx            | JavaScript |         47 |          0 |          5 |         52 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/NavLinksStyle.jsx       | JavaScript |         50 |          0 |          2 |         52 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/Navigation/SideDrawer.jsx          | JavaScript |          9 |          0 |          4 |         13 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/NotFound/NotFound.jsx              | JavaScript |         38 |          0 |          5 |         43 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/shared/components/NotFound/NotFoundStyle.jsx         | JavaScript |         44 |          0 |          2 |         46 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/components/UserStyle.jsx                        | JavaScript |         12 |          0 |          0 |         12 |
+| /home/cia/Documents/Programming/MyProgramming/FULLSTACK/phoenix-places-explorer-mern-app/frontend/src/user/pages/Users.jsx                                 | JavaScript |         11 |          0 |          2 |         13 |
+| Total                                                                                                                                                      |            |        711 |          0 |         36 |        747 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
