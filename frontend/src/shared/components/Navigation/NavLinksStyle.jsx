@@ -34,18 +34,14 @@ const muiStyle = makeStyles((theme) => ({
         fontWeight: "bolder",
         transition: ".8s",
         textShadow: ".2rem .1rem .1rem black",
-        "&:hover": {
+        "&:hover, &:focus, &:active": {
             fontSize: ".8rem",
             color: "rgba(169, 166, 166, 1)",
             textShadow: ".2rem .1rem .1rem black",
         },
-        "&:active": {
-            fontSize: ".8rem",
-            color: "rgba(169, 166, 166, 1)"
-        },
         [theme.breakpoints.up("md")]: {
             fontSize: "1rem",
-            "&:hover": {
+            "&:hover, &:focus, &:active": {
                 fontSize: "1.1rem",
                 letterSpacing:".1rem"
             },
