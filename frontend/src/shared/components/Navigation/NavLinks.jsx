@@ -14,7 +14,7 @@ const NavLinks = (props) => {
   const classes = muiStyle();
 
   return (
-    <div>
+    <div className={classes.navLinkContainer}>
       <List className={classes.navLinksList}>
         <ListItemText className={classes.navLinksListItems}>
           <NavLink 

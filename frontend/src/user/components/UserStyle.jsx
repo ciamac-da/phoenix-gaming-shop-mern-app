@@ -31,9 +31,11 @@ const muiStyle = makeStyles(() => ({
     fontWeight: "bolder !important",
     fontSize: "0.9rem !important",
     cursor:"pointer",
-    transition: "0.4s",
+    transition: "0.8s",
     "&:hover": {
         color: "rgba(169, 166, 166, 1)",
+        textShadow: ".2rem .1rem .1rem black",
+        letterSpacing:".1rem"
       },
   },
   noUserContainer: {
@@ -46,6 +48,12 @@ const muiStyle = makeStyles(() => ({
     color: "#1c69d4",
     fontWeight:"bolder !important",
     margin: "10% auto",
+    transition: ".8s",
+    "&:hover": {
+      color: "rgba(169, 166, 166, 1)",
+      textShadow: ".2rem .1rem .1rem white",
+      letterSpacing:".1rem"
+    },
   },
 }));
 

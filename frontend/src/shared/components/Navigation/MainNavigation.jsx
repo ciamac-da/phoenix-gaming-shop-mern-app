@@ -36,13 +36,13 @@ const MainNavigation = () => {
           <MenuOutlinedIcon className={classes.hamburgerMenuButtonMainIcon} />
         </button>
       </Root>
-      <Typography style={{ padding: "1rem" }}>
+      <Typography  style={{ padding: "1rem" }}>
         <Link
           style={{
             textDecoration: "auto",
             color: "white",
             fontWeight: "bolder",
-            fontSize:"1.25rem"
+            fontSize:"1rem",
           }}
         >
           Phoenix Places Explorer
