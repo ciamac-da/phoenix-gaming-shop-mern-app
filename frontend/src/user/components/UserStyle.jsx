@@ -33,8 +33,8 @@ const muiStyle = makeStyles(() => ({
     cursor:"pointer",
     transition: "0.8s",
     "&:hover": {
-        color: "rgba(169, 166, 166, 1)",
-        textShadow: ".2rem .1rem .1rem black",
+        color: "rgba(212, 0, 0, 0.8)",
+        textShadow: ".1rem .1rem .1rem black",
         letterSpacing:".1rem"
       },
   },
@@ -50,7 +50,7 @@ const muiStyle = makeStyles(() => ({
     margin: "10% auto",
     transition: ".8s",
     "&:hover": {
-      color: "rgba(169, 166, 166, 1)",
+      color: "rgba(212, 0, 0, 0.8)",
       textShadow: ".2rem .1rem .1rem white",
       letterSpacing:".1rem"
     },

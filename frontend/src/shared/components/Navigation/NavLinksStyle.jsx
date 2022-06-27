@@ -36,8 +36,10 @@ const muiStyle = makeStyles((theme) => ({
         textShadow: ".2rem .1rem .1rem black",
         "&:hover, &:focus, &:active": {
             fontSize: ".8rem",
-            color: "rgba(169, 166, 166, 1)",
-            textShadow: ".2rem .1rem .1rem black",
+            color: "rgba(212, 0, 0, 0.8)",
+            textShadow: ".1rem .1rem .1rem white",
+            backgroundColor: "white",
+            borderRadius: ".3rem"
         },
         [theme.breakpoints.up("md")]: {
             fontSize: "1rem",
