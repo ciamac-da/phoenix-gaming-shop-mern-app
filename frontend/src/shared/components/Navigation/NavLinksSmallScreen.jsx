@@ -1,5 +1,5 @@
 import React from "react";
-import muiStyle from "./NavLinksStyle";
+import muiStyle from "./NavLinksSmallScreenStyle";
 import { NavLink } from "react-router-dom";
 import {
   List,
@@ -8,7 +8,7 @@ import {
 
 
 
-const NavLinks = (props) => {
+const NavLinksSmallScreen = (props) => {
   const classes = muiStyle();
 
   return (
@@ -47,4 +47,4 @@ const NavLinks = (props) => {
   );
 };
 
-export default NavLinks;
+export default NavLinksSmallScreen;

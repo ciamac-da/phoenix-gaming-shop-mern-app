@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const muiStyle = makeStyles((theme) => ({
     navLinkContainer: {
+        height:"100vh",
         width: "65vw",
         position: "absolute",
         right: "0",
@@ -17,9 +18,10 @@ const muiStyle = makeStyles((theme) => ({
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        [theme.breakpoints.up("md")]: {
+        [theme.breakpoints.down("sm")]: {
             display: "flex !important",
-            flexDirection: "row !important",
+            flexDirection: "column !important",
+            marginTop: "3rem !important"
         }
     },
     navLinksLinkItems: {
@@ -27,25 +29,21 @@ const muiStyle = makeStyles((theme) => ({
     },
     navLinksLinkItemsNavLink: {
         border: "1px solid transparent",
-        color: "white",
+        color: "#1c69d4",
         textDecoration: "none",
-        padding: "0.3rem",
-        fontSize: ".7rem",
-        fontWeight: "bolder",
+        padding: "0rem",
+        fontSize: "1.5rem",
+        fontWeight: "bolder !important",
         transition: ".8s",
-        textShadow: ".2rem .1rem .1rem black",
         "&:hover, &:focus, &:active": {
-            fontSize: ".8rem",
-            color: "rgba(212, 0, 0, 0.8)",
-            textShadow: ".1rem .1rem .1rem white",
-            backgroundColor: "white",
-            borderRadius: "1rem"
+            fontSize: "1.6rem",
+            color: "rgba(212, 0, 0, 0.8) !important",
         },
-        [theme.breakpoints.up("md")]: {
-            fontSize: "1rem",
+        [theme.breakpoints.down("md")]: {
+            fontSize: "1.5rem",
             "&:hover, &:focus, &:active": {
-                fontSize: "1.1rem",
-                letterSpacing:".1rem"
+                fontSize: "1.6rem",
+                letterSpacing:".1rem !important"
             },
         }
 

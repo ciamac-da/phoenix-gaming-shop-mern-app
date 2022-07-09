@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import MainHeader from "./MainHeader";
 import { Link } from "react-router-dom";
@@ -6,6 +7,8 @@ import { styled } from "@mui/material/styles";
 import muiStyle from "./MainHeaderStyle";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import NavLinks from "./NavLinks";
+import SideDrawer from './SideDrawer';
+import NavLinksSmallScreen from './NavLinksSmallScreen';
 
 
 const MainNavigation = () => {
@@ -30,6 +33,12 @@ const MainNavigation = () => {
   }, [windowWidth]);
 
   return (
+    <React.Fragment>
+    <SideDrawer>
+      <nav className={classes.MainNavigationDrawerNav}>
+        <NavLinksSmallScreen />
+      </nav>
+    </SideDrawer>
     <MainHeader>
       <Root>
         <button className={classes.hamburgerMenuButtonMain}>
@@ -48,8 +57,11 @@ const MainNavigation = () => {
           Phoenix Places Explorer
         </Link>
       </Typography>
+      <nav style={{display:"contents"}}>
         <NavLinks />
+      </nav>
     </MainHeader>
+    </React.Fragment>
   );
 };
 

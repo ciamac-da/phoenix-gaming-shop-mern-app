@@ -16,6 +16,9 @@ const muiStyle = makeStyles(() => ({
     backgroundColor: "white",
     color: "#1c69d4",
   },
+  MainNavigationDrawerNav: {
+    height: "100%"
+  }
 }));
 
 export default muiStyle;

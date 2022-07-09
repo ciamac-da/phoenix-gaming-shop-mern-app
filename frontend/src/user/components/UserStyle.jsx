@@ -34,8 +34,10 @@ const muiStyle = makeStyles(() => ({
     transition: "0.8s",
     "&:hover": {
         color: "rgba(212, 0, 0, 0.8)",
-        textShadow: ".1rem .1rem .1rem black",
-        letterSpacing:".1rem"
+        backgroundColor:"white",
+        textShadow: ".1rem .1rem .1rem white",
+        letterSpacing:".1rem",
+        borderRadius:"1rem"
       },
   },
   noUserContainer: {
