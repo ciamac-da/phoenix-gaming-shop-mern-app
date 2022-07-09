@@ -32,18 +32,18 @@ const muiStyle = makeStyles((theme) => ({
         color: "#1c69d4",
         textDecoration: "none",
         padding: "0rem",
-        fontSize: "1.5rem",
+        fontSize: "1.4rem",
         fontWeight: "bolder !important",
         transition: ".8s",
         "&:hover, &:focus, &:active": {
-            fontSize: "1.6rem",
+            fontSize: "1.5rem",
             color: "rgba(212, 0, 0, 0.8) !important",
         },
         [theme.breakpoints.down("md")]: {
-            fontSize: "1.5rem",
+            fontSize: "1.4rem",
             "&:hover, &:focus, &:active": {
-                fontSize: "1.6rem",
-                letterSpacing:".1rem !important"
+                fontSize: "1.5rem",
+                letterSpacing:".2rem !important"
             },
         }
 

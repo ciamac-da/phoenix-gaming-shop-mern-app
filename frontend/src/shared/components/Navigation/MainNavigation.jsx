@@ -9,17 +9,28 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import NavLinks from "./NavLinks";
 import SideDrawer from './SideDrawer';
 import NavLinksSmallScreen from './NavLinksSmallScreen';
+import Backdrop from '../UIElements/Backdrop';
 
 
 const MainNavigation = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [drawerIsOpen, setDrawerIsOpen] = useState(false);
     const classes = muiStyle();
 
-  const Root = styled("div")(({ theme }) => ({
-    [theme.breakpoints.up("sm")]: {
-      display: "none",
-    },
-  }));
+
+    const openDrawer = () => {
+      setDrawerIsOpen(true);
+    }
+
+    const closeDrawer = () => {
+      setDrawerIsOpen(false);
+    }
+
+    const Root = styled("div")(({ theme }) => ({
+      [theme.breakpoints.up("sm")]: {
+        display: "none",
+      },
+    }));
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,14 +45,17 @@ const MainNavigation = () => {
 
   return (
     <React.Fragment>
+    {drawerIsOpen && <Backdrop onClick={closeDrawer}/>}
+    {drawerIsOpen ? (
     <SideDrawer>
       <nav className={classes.MainNavigationDrawerNav}>
         <NavLinksSmallScreen />
       </nav>
     </SideDrawer>
+    ) : null }
     <MainHeader>
       <Root>
-        <button className={classes.hamburgerMenuButtonMain}>
+        <button className={classes.hamburgerMenuButtonMain} onClick={openDrawer}>
           <MenuOutlinedIcon className={classes.hamburgerMenuButtonMainIcon} />
         </button>
       </Root>
