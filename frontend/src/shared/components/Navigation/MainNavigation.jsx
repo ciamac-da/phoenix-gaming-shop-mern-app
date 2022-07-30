@@ -18,11 +18,11 @@ const MainNavigation = () => {
     const classes = muiStyle();
 
 
-    const openDrawer = () => {
+    const openDrawerHandler = () => {
       setDrawerIsOpen(true);
     }
 
-    const closeDrawer = () => {
+    const closeDrawerHandler = () => {
       setDrawerIsOpen(false);
     }
 
@@ -45,9 +45,9 @@ const MainNavigation = () => {
 
   return (
     <React.Fragment>
-    {drawerIsOpen && <Backdrop onClick={closeDrawer}/>}
+    {drawerIsOpen && <Backdrop onClick={closeDrawerHandler}/>}
     {drawerIsOpen ? (
-    <SideDrawer>
+    <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
       <nav className={classes.MainNavigationDrawerNav}>
         <NavLinksSmallScreen />
       </nav>
@@ -55,7 +55,7 @@ const MainNavigation = () => {
     ) : null }
     <MainHeader>
       <Root>
-        <button className={classes.hamburgerMenuButtonMain} onClick={openDrawer}>
+        <button className={classes.hamburgerMenuButtonMain} onClick={openDrawerHandler}>
           <MenuOutlinedIcon className={classes.hamburgerMenuButtonMainIcon} />
         </button>
       </Root>
