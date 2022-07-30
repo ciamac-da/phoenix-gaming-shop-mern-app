@@ -7,7 +7,7 @@ const Users = () => {
 
   const USERS = [
     {
-      id: "1",
+      id: "u1",
       image: "https://via.placeholder.com/600/771796",
       name: "Johnny Depp",
       places: 3,
