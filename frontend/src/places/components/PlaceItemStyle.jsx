@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const muiStyle = makeStyles((theme) => ({
   placeItem: {
     margin: "1rem 0",
+    borderRadius: "1rem"
   },
   placeItem__content: {
     padding: "0",
@@ -31,16 +32,6 @@ const muiStyle = makeStyles((theme) => ({
     padding: "1rem",
     textAlign: "center",
     borderTop: "1px solid #ccc",
-  },
-  placeItem__actions__sub: {
-      margin: "0.5rem !important",
-      transition: ".7s !important",
-      transform: "translateY(0px)",
-    "&:hover": {
-        opacity: "0.7",
-        transition: ".7s",
-        transform:  "translateY(10px)"
-    }
   },
 }));
 
