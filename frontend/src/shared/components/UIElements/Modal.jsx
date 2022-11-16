@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactDOM } from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import "./Modal.css";
 import Backdrop from './Backdrop';
 import { CSSTransition } from 'react-transition-group';
@@ -31,6 +31,7 @@ const Modal = props => {
     {props.show && <Backdrop onClick={props.onCancel} />}
     <CSSTransition 
     in={props.show}
+    noderef={React.useRef(null)}
     mountOnEnter
     mountOnExit
     timeout={200}

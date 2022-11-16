@@ -33,6 +33,10 @@ const muiStyle = makeStyles((theme) => ({
     textAlign: "center",
     borderTop: "1px solid #ccc",
   },
+  mapContainer: {
+    height: "15rem",
+    width: "100%"
+  }
 }));
 
 export default muiStyle;
